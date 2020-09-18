@@ -176,27 +176,27 @@ main {
 }
 
 .foto-2 {
-  transform: rotate(-1deg);
+  transform: rotate(-2deg);
 }
 
 .foto-3 {
-  transform: rotate(-2deg);
+  transform: rotate(2deg);
 }
 
 .foto-4 {
-  transform: rotate(-2deg);
-}
-
-.foto-5 {
   transform: rotate(-1deg);
 }
 
+.foto-5 {
+  transform: rotate(1deg);
+}
+
 .foto-6 {
-  transform: rotate(-2deg);
+  transform: rotate(1deg);
 }
 
 .foto-7 {
-  transform: rotate(1deg);
+  transform: rotate(2deg);
 }
 
 .rodape {

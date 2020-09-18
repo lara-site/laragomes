@@ -1,0 +1,30 @@
+@use "../sizes" as s;
+
+.secao-hobbies {
+    flex-direction: column;
+    padding-bottom: 50px;
+
+    @media(max-width: s.$mobile) {
+        padding-bottom: 0;
+    }
+    
+    &__items {
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @media(max-width: s.$mobile) {
+            justify-content: space-around;
+        }
+    }
+
+    &__item {
+        width: 22%;
+        @media(max-width: s.$mobile) {
+            min-width: 200px;
+            margin-bottom: 20px;
+        }
+    }
+}

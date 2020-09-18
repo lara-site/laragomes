@@ -1,0 +1,11 @@
+.secao {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+    }
+}

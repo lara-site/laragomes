@@ -1,0 +1,17 @@
+@use "../sizes" as s;
+
+.secao-familia {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 15px;
+
+    .secao-familia__foto {
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+
+        @media (max-width: s.$mobile) {
+            width: 100%;
+        }
+    }
+}

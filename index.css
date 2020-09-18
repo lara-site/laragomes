@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  font-size: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Patrick Hand", sans-serif;
+  background-color: #c24747;
+  background-image: url("../imagens/textura_papel.png");
+  font-size: 1.4rem;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, figcaption {
+  font-family: "Caveat", cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: auto;
+  align-items: center;
+}
+
+.secao {
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  .secao {
+    flex-direction: column;
+  }
+}
+
+.secao-sobre {
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  padding-top: 30px;
+}
+@media (max-width: 800px) {
+  .secao-sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.secao-sobre__main {
+  padding-bottom: 30px;
+  width: 55%;
+}
+@media (max-width: 800px) {
+  .secao-sobre__main {
+    width: 100%;
+  }
+}
+.secao-sobre__especialidades {
+  margin: 10px 20px;
+}
+.secao-sobre__foto {
+  width: 37%;
+}
+@media (max-width: 800px) {
+  .secao-sobre__foto {
+    width: 100%;
+  }
+}
+
+.secao-sobre-especialidades {
+  margin-left: 20px;
+}
+
+.secao-hobbies {
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+  .secao-hobbies {
+    padding-bottom: 0;
+  }
+}
+.secao-hobbies__items {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+  .secao-hobbies__items {
+    justify-content: space-around;
+  }
+}
+.secao-hobbies__item {
+  width: 22%;
+}
+@media (max-width: 800px) {
+  .secao-hobbies__item {
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+.secao-bff__main {
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .secao-bff__main {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+.secao-bff__foto {
+  width: 37%;
+}
+@media (max-width: 800px) {
+  .secao-bff__foto {
+    width: 100%;
+  }
+}
+.secao-bff__paragrafo {
+  padding-left: 20px;
+}
+
+.secao-familia {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 15px;
+}
+.secao-familia .secao-familia__foto {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .secao-familia .secao-familia__foto {
+    width: 100%;
+  }
+}
+
+.foto {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 4px 4px 4.6px #00000047;
+}
+.foto img {
+  width: 100%;
+}
+.foto figcaption {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.foto-1 {
+  transform: rotate(-1deg);
+}
+
+.foto-2 {
+  transform: rotate(-1deg);
+}
+
+.foto-3 {
+  transform: rotate(-2deg);
+}
+
+.foto-4 {
+  transform: rotate(-2deg);
+}
+
+.foto-5 {
+  transform: rotate(-1deg);
+}
+
+.foto-6 {
+  transform: rotate(-2deg);
+}
+
+.foto-7 {
+  transform: rotate(1deg);
+}
+
+.rodape {
+  text-align: right;
+  padding: 5px 20px;
+  font-size: 1rem;
+  color: #ff9b9b;
+  font-family: "Caveat", cursive;
+}
+
+.paragrafo {
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */

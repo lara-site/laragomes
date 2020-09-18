@@ -1,0 +1,32 @@
+@use "sass:math";
+
+@function angulo_aleatorio($limite) {
+    $sinal: round(random());
+  
+    @if $sinal == 1 {
+        @return random($limite);
+    } @else {
+        @return -1 * random($limite);
+    }
+}
+
+.foto {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 4px 4px 4.6px #00000047;
+    
+    img {
+        width: 100%;
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@for $n from 1 through 7 {
+    .foto-#{$n} {
+        transform: rotate(#{angulo_aleatorio(2)}deg);
+    }
+}
